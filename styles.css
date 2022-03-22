@@ -1,0 +1,159 @@
+
+p {
+    text-align: center;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif; 
+    margin-top: 20px;
+    
+}
+
+img {
+    width:40%;
+    height: 40%;
+    position: relative; 
+    left: 30%;  
+    border-radius: 55%;
+}
+
+.image_index {
+    width: 20%; 
+    height: 20%; 
+    position: relative; 
+    left: 20%; 
+    border-color: black;
+    border: solid 2px;
+}
+
+:root {
+    --color-primary: rgb(197, 170, 51); 
+    --color-white: white; 
+    --color-black: black; 
+    --color-gray: gray; 
+}
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-color: rgb(198, 209, 221);
+}
+
+
+h1 {
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    font-family: Lobster; 
+    text-align: center;
+    padding: 50px;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Lobster;
+}
+
+.menu_bar{
+    background-color: var(--color-primary);
+    height: 80px;
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%; 
+    position: sticky;
+    z-index: 1;
+}
+    
+.logo {
+    color: var(--color-white);
+    font-size: 30px; 
+    background-color: var(--color-primary);
+}
+
+.logo span{ 
+    color: var(--color-black);
+    background-color: var(--color-primary);
+}
+
+.menu_bar ul{
+    list-style: none; 
+    display: flex; 
+    background-color: var(--color-primary);
+}
+
+.menu_bar ul li {
+    padding: 10px 30px;
+    position: relative;
+    background-color: var(--color-primary);
+}
+
+.menu_bar ul li a{
+    color: var(--color-white);
+    text-decoration: none; 
+    font-size: 20px; 
+    background-color: var(--color-primary);
+    transition: all 0.3s; 
+}
+
+.menu_bar ul li a:hover {
+    color: var(--color-gray);
+}
+
+.dropdown_menu{
+    display: none; 
+    z-index: 1;
+}
+
+.menu_bar ul li:hover .dropdown_menu {
+    display: block; 
+    position: absolute; 
+    left: 0;
+    top: 100%; 
+    background-color: var(--color-primary);
+}
+
+.dropdown_menu ul {
+    display: block; 
+    margin: 10px; 
+   
+}
+
+.fas {
+background-color: var(--color-primary) 
+}
+
+.dropdown_menu ul li {
+    width: 150px; 
+    padding: 10px; 
+   
+}
+
+ul li {
+text-align: center;
+font-size: 25px;
+/* margin-top: 50px; */
+padding-top: 30px;
+}
+
+#review {
+ background-color: white;
+    padding: 15%;
+
+}
+
+/* form {
+    display: block;
+} */
+
+button {
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+
+
+}
